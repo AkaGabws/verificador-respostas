@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Para cada pessoa na lista de dados, cria um item na lista do HTML
             data.forEach(pessoa => {
                 const item = document.createElement('li');
-                item.textContent = pessoa['Nome Completo!']; // Supondo que a API retorne um objeto com a chave "nome"
+                item.textContent = pessoa['Nome Completo']; // Supondo que a API retorne um objeto com a chave "nome"
                 lista.appendChild(item);
             });
         })
